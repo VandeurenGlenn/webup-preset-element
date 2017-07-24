@@ -19,7 +19,10 @@ export default ({dest}) => {
   )[0];
 
   _http2.element = true;
+  _http2.serviceWorker = false;
+
   _bundle.element = true;
+  _bundle.serviceWorker = false;
 
   // return an array or object as preset, each object is an build
   return [

@@ -4,9 +4,9 @@ var _element = require('./../dist/element-node');
 
 var preset = _element({dest: 'build'});
 var keys = [
-  ['dest', 'inlineJs', 'inlineCss', 'plugins', 'name', 'element'],
+  ['dest', 'inlineJs', 'inlineCss', 'plugins', 'name', 'element', 'serviceWorker'],
   ['dest', 'inlineJs', 'inlineCss', 'bundle', 'strategy', 'urlMapper', 'name',
-  'element']
+  'element', 'serviceWorker']
 ];
 
 describe('description', () => {
